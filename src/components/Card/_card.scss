@@ -1,0 +1,98 @@
+.card {
+    max-width: 550px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    outline: 1px dotted $primary;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+    }
+    
+}
+.card-right, .card-name, p {
+        background-color: #fff;
+}
+.card-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .card-name {
+        text-transform: uppercase;
+        font-weight: 100;
+        color: $primary;
+        font-size: 25px;
+    }    
+}
+.card-details {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    .card-info {
+        display: flex;
+        background-color: #fff;
+        margin: 3px;
+        p {
+            margin: 2px;
+            color: $texte;
+            font-weight: 100;
+            font-size: 12px;
+        }
+    }
+}
+
+.card-link {
+    background-color: $primary;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+    position: relative;
+    left: 38%;
+    font-size: 14px;
+    
+}
+
+@media screen and (max-width:1440px){
+    .card-right {
+        width: 30vw;
+    }
+}
+@media screen and (max-width:1040px){
+    .card {
+        width: 100%;    
+    }
+    .card-right {
+        width: 100%;
+    }
+    .card-details {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:480px){
+    .card-link{
+        left: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
+       

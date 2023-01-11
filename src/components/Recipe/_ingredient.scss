@@ -1,0 +1,37 @@
+.ingredient-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: $texte;
+    border: 1px dotted $primary;
+    height: fit-content;
+    .ingredient-title {
+        background-color: #fff;
+        text-align: center;
+        margin: 20px;
+        font-weight: 400;
+    }  
+}
+.ingredients {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    .ingredient-list {
+        min-width: 150px;
+        background-color: #fff;
+        margin: 15px;
+        p{
+            font-size: 14px;
+            font-weight: 100;
+            margin: 15px;
+            text-align: center;
+        }
+        
+    }
+}
+
+
+

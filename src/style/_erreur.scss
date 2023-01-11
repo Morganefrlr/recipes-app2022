@@ -1,0 +1,22 @@
+.error {
+    max-width: 1240px;
+    margin: 20px 100px;
+    background-color: #fff;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    .error-404 {
+        background-color: #fff;
+        font-size: 150px;
+        
+        color: $primary;
+    }
+    .error-text, .error-link {
+        background-color: #fff;
+        color: $primary;
+        margin: 20px;
+
+    }
+}

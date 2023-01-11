@@ -1,0 +1,27 @@
+.tags {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    width: 100%;
+    background-color: #fff;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .tag {
+        min-width: 70px;
+        height: 20px;
+        border: 1px solid $primary;
+        text-align: center;
+        padding: 3px;
+        font-size: 12px;
+        margin: 2px 5px;
+        color: $texte;
+    }
+}
+
+.recipe-tags {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 50px;
+}

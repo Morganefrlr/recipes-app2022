@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    .footer-logo {
+        color: #fff;
+        font-family: 'Amatic SC', cursive;
+        margin: 20px;
+    }
+    .credit-img {
+        text-decoration: none;
+        color: rgb(158, 158, 158);
+        margin: 10px;
+        font-size: 10px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+}
+
+.footer-sm {
+    display: flex;
+    flex-direction: row;
+    a {
+        text-decoration: none;
+        width: 20px;
+        height: 20px;
+        background-color: #000;
+        margin: 10px;
+        text-align: center;
+        padding: 2px;
+        color: #fff;
+    }
+}

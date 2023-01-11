@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif ;
+    background: #000;
+    
+}
+html {
+    
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1440px) {
+    html {
+        display: inherit;
+    }
+}
+
+
+$primary: rgb(226, 174, 16);
+$texte: rgb(52, 52, 52);
+
+
+@import '../components/Navbar/navbar';
+@import '../style/home';
+@import '../components/Card/card';
+@import '../components/Footer/footer';
+@import '../style/recipe';
+@import '../components/Recipe/tags';
+@import '../components/Recipe/ingredient';
+@import '../style/liked';
+@import '../style/erreur';

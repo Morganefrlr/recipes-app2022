@@ -1,0 +1,33 @@
+.recipe-liked {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    width: 1240px;
+    margin: 20px 100px;
+    background-color: #fff;
+    padding: 20px 50px;
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+    .no-liked{
+        background-color: #fff;
+        height: 50px;
+        text-align: center;
+        padding: 15px;
+        color: $texte;
+    }
+}
+
+@media screen and (max-width:1440px){
+    .recipe-liked {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: auto;
+    }
+}
+@media screen and (max-width:1040px){
+    .recipe-liked {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
